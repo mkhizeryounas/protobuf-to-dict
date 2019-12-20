@@ -22,7 +22,7 @@ TYPE_CALLABLE_MAP = {
     FieldDescriptor.TYPE_SFIXED32: int,
     FieldDescriptor.TYPE_SFIXED64: int,
     FieldDescriptor.TYPE_BOOL: bool,
-    FieldDescriptor.TYPE_STRING: unicode,
+    FieldDescriptor.TYPE_STRING: str,
     FieldDescriptor.TYPE_BYTES: lambda b: b.encode("base64"),
     FieldDescriptor.TYPE_ENUM: int,
 }
