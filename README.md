@@ -6,7 +6,7 @@ serialization (e.g. to JSON).
 
 ## Installation
 
-Use `pip install protobuf-to-dict` or `python setup.py install`.
+Use `pip install protobuf-to-dict-2` or `python setup.py install`.
 
 ## Example
 
@@ -64,7 +64,7 @@ $ python setup.py nosetests
 To regenerate `src/tests/sample_pb2.py`:
 
 ```sh
-$ protoc --python_out=src -Isrc src/tests/sample.proto 
+$ protoc --python_out=src -Isrc src/tests/sample.proto
 ```
 
 ## Authors
@@ -74,7 +74,6 @@ protobuf-to-dict is written and maintained by
 [Nino Walker](https://github.com/ninowalker),
 [Jonathan Klaassen](https://github.com/jaklaassen), and
 [Tristram Gräbener](http://blog.tristramg.eu/).
-
 
 ## (Un)license
 
